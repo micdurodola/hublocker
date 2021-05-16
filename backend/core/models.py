@@ -20,4 +20,13 @@ class Locker(models.Model):
     featured = models.CharField(choices=FEATURED_CHOICES, max_length=1)
     creation_date = models.DateTimeField(auto_now_add=True)
 
+    class meta:
+        ordering = ['-creation_date']
+
+    def __str__(self):
+        return self.specification
+
+    
+
+
 
