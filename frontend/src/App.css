@@ -1,0 +1,166 @@
+
+/******* Header ******/
+header{
+  margin:0 !important;
+}
+.nav{
+  margin-left:150px !important;
+}
+
+.navbar{
+  color:#000 !important;
+  background-color: #d7b343;
+
+}
+
+.logo{
+  width:70px;
+  
+}
+
+.nav li a{
+  color:#000;
+  font-weight:bold;
+}
+
+.nav .btn{
+  background-color:rgba(0, 0, 0, 0.24);
+  color:#fff;
+  padding:5px 20px;
+  border-radius:30px;
+  margin-top:7px;
+  
+}
+
+/******* Search Section ******/
+
+.main-image{
+  
+  min-height:300px;
+  background-position:center;
+  background-size: cover;
+  margin-top:-30px;
+
+}
+
+.search{
+  margin-top:50px;
+}
+
+.search h3{
+  color:#000;
+  font-size: 40px;
+}
+form{
+  background-color:rgba(255, 255, 255, 0.589);
+  padding: 10px 20px;
+
+}
+
+input[type=search]{
+  width:75%;   
+  float:left;
+  border:none;
+  background-color:rgba(255, 255, 255, 0);
+  padding-top:15px;
+
+}
+
+.search-btn{
+  color:#fff;
+  background-color: #d75031;
+  border:none;
+  padding:2px 20px;
+  font-size: 16px;
+  width:25%;
+  
+
+}
+
+.btn-text{
+  font-size:8px;
+  background-color:#fff;
+  color:#d75031;
+  padding:2px 5px;
+  font-weight:bold;
+}
+
+
+
+.select-price-picker{
+  width:50%;
+  text-align: right;  
+  padding-top:10px;   
+  float:right;
+  
+}
+
+.select-price-picker select{
+  width:70%;
+  background:#dddada;
+  padding:5px 10px;
+  color:#000 !important;
+  font-size:14px;
+  border: 0px solid #dddada;
+  border-radius:5px;
+}
+
+/******* Display Table ******/
+.select-box-picker{
+  width:30%;
+  margin-bottom:50px;
+}
+.select-box-picker select{
+  width:100%;
+  background:#dddada;
+  padding:10px 25px;
+  color:#000 !important;
+  font-size:14px;
+  border: 0px solid #dddada;
+  border-radius:5px;
+}
+
+
+
+
+.main-table{
+  background:#f4f4f4;
+}
+table, th, td {
+  border-top: 8px solid #fff !important;
+}
+
+.btn-rent{
+  background-color:#56cc75;
+  padding:3px 15px;
+  color:#fff;
+  
+}
+
+.table_button{
+text-align: right;
+}
+
+.dropdown-button{
+  width:50%;
+  float:left;
+}
+
+.sort{
+  background-color:#f4f4f4;
+  margin-bottom:30px;
+}
+
+.sort p{
+  color:rgba(0, 0, 0, 0.424);
+  padding:10px;
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
