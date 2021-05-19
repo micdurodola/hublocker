@@ -1,5 +1,6 @@
-import React, {Component} from "react";
-import Link from "react-router-dom";
+import React from "react";
+import {Link} from "react-router-dom";
+import logo from '../hublock_image.jpg';
 
 
 const header = () => {
@@ -14,7 +15,8 @@ const header = () => {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand my_brand" href="#"><img src="#" alt="Hub Locker" className="logo" /></a>
+                    <Link to="/" className="navbar-brand my_brand"><img src={logo} alt="Hub Locker" className="logo" /></Link>
+                    
                     </div>
                     <div className="collapse navbar-collapse myMenu" id="myNavbar">
                     <ul className="nav navbar-nav">

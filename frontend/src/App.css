@@ -35,7 +35,7 @@ header{
 /******* Search Section ******/
 
 .main-image{
-  
+  background-image: url(./background.jpg);
   min-height:300px;
   background-position:center;
   background-size: cover;
@@ -63,6 +63,12 @@ input[type=search]{
   border:none;
   background-color:rgba(255, 255, 255, 0);
   padding-top:15px;
+  font-size:16px;
+
+}
+
+input[type=search]:focus{  
+  outline:none;
 
 }
 
@@ -90,7 +96,7 @@ input[type=search]{
 .select-price-picker{
   width:50%;
   text-align: right;  
-  padding-top:10px;   
+  padding-top:25px;  
   float:right;
   
 }
@@ -103,6 +109,11 @@ input[type=search]{
   font-size:14px;
   border: 0px solid #dddada;
   border-radius:5px;
+  outline:none;
+}
+
+select:focus{
+  outline:none;
 }
 
 /******* Display Table ******/
@@ -128,6 +139,8 @@ input[type=search]{
 }
 table, th, td {
   border-top: 8px solid #fff !important;
+  font-size:12px;
+  font-weight:500;
 }
 
 .btn-rent{
@@ -149,13 +162,37 @@ text-align: right;
 .sort{
   background-color:#f4f4f4;
   margin-bottom:30px;
+  align-items:center;
 }
 
 .sort p{
   color:rgba(0, 0, 0, 0.424);
-  padding:10px;
+  padding-top:25px;
   font-size:14px;
   font-weight:bold;
+}
+
+.review img{
+  width:100%;
+  text-align: center;
+}
+
+.checked {
+  color: orange;
+}
+
+.address{
+  color:rgba(95, 95, 255, 0.733);
+  font-size:12px;
+  padding-top:5px;
+}
+
+footer{
+  align-items: center;
+  color:#fff;
+  background-color:#d7b343;
+  text-align: center;
+  padding:10px 10px;
 }
 
 
